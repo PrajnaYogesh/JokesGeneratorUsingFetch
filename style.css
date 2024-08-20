@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+   width: 100vw;
+   height: 100vh;
+   background-image: url('https://previews.123rf.com/images/ijeab/ijeab1609/ijeab160900197/63034863-yellow-laughing-happy-smile-face-smiley-face-ball-on-background-sweet-retro-vintage-color-.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.heading-style{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(95, 24, 66);
+    font-family:cursive ;
+}
+
+.joke-box{
+    width: 800px;
+    aspect-ratio: 16/9;
+    background-color: rgb(205, 219, 233);
+    border-radius: 40%;
+    position: absolute;
+    top:100px;
+    left:80px
+}
+
+
+.jokeStyle{
+    font-size: 3rem;  
+     border-radius: 40%;
+    position: absolute;
+    top:100px;
+    left:80px
+} 
+.buton-style{
+    height:60px;
+    border:none;
+       font-size:1.25rem ;
+       border-radius: 40%;
+       position: absolute;
+       bottom:100px;
+       left:350px;
+       background-color: transparent;
+       color: rgb(105, 27, 27);
+       cursor: pointer;
+       
+     
+}
